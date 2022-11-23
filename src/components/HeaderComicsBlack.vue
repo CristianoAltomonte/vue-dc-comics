@@ -1,6 +1,8 @@
 <template>
   <div class="container-header">
-    <span> --> Content goes here </span>
+    <div class="content">
+      <span> --> Content goes here </span>
+    </div>
   </div>
 </template>
 
@@ -11,13 +13,19 @@ export default {
 </script>
 
 
-<style style scoped lang="scss">
-.container-header {
+<style scoped lang="scss">
 
-  width: 80%;  
-  margin: auto;
+.container-header{
+
   color: white;
   background-color: black;
   padding: 1%;
+
+
+}
+.content {
+  
+  width: 80%;
+  margin: auto;
 }
 </style>

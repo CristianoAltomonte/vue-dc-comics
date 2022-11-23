@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <div>
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="prova" />
+        <img src="../assets/img/dc-logo.png" alt="" />
       </div>
 
       <div>
@@ -38,6 +38,7 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
 .container {
   background-color: white;
   width: 80%;
@@ -67,6 +68,6 @@ ul {
 }
 
 header img {
-  width: 10%;
+  width: 60%;
 }
 </style>

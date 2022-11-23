@@ -3,11 +3,17 @@
 
     <HeaderComics/>
 
+    <MainComics/>
+
+    <FooterComics/>
+
   </div>
 </template>
 
 <script>
 import HeaderComics from './components/HeaderComics.vue'
+import MainComics from './components/MainComics.vue'
+import FooterComics from './components/FooterComics.vue'
 
 
 export default {
@@ -17,7 +23,8 @@ export default {
   components: {
     
     HeaderComics,
-
+    MainComics,
+    FooterComics,
   }
 }
 </script>
@@ -31,9 +38,11 @@ export default {
 }
 
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
  
 }
 </style>
