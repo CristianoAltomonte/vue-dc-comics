@@ -12,11 +12,11 @@
         </div>
         
         <div>
-          <img src="../assets/img/footer-facebook.png" alt="" />
-          <img src="../assets/img/footer-twitter.png" alt="" />
-          <img src="../assets/img/footer-youtube.png" alt="" />
-          <img src="../assets/img/footer-pinterest.png" alt="" />
-          <img src="../assets/img/footer-periscope.png" alt="" />
+          <img src="../assets/img/footer-facebook.png" alt="#" />
+          <img src="../assets/img/footer-twitter.png" alt="#" />
+          <img src="../assets/img/footer-youtube.png" alt="#" />
+          <img src="../assets/img/footer-pinterest.png" alt="#" />
+          <img src="../assets/img/footer-periscope.png" alt="#" />
         </div>
       </div>
     </div>
@@ -58,6 +58,7 @@ img {
 
   display: flex;
   align-items: center;
+  gap: 10px;
 
 }
 
