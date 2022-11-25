@@ -150,9 +150,9 @@ img {
   font-weight: bold;
   background-color: #007cf2;
   padding: 10px 40px;
-  position: absolute;
+  position: relative;
   left: 4%;
-  bottom: 48%;
+  bottom: 15px;
 }
 .jumbotron {
   position: relative;
